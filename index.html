@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Lista de Servicios</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo1">Lista de Servicios</h1>
+    <input class="filtro2" type="text" id="filtroInput" placeholder="Buscar productos...">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Vista previa</th>
+          <th>Servicio</th>
+          <th>Precio</th>
+          <th>Descripción</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="productTableBody"></tbody>
+    </table>
+    
+    <h2>Carrito</h2>
+    <p>Total de elementos en el carrito: <span id="contadorCarrito">0</span></p>
+    <p>Total del carrito: $<span id="totalCarrito">0</span></p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="carritoTableBody"></tbody>
+    </table>
+  </div>
+
+  <!-- archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
